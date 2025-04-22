@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Online Car Marketplace</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <!-- Navbar -->
+  <nav class="flex items-center justify-between px-6 py-4 bg-white shadow-md">
+    <div class="text-xl font-bold">CarMarket</div>
+    <div class="hidden md:flex gap-6">
+      <a href="#" class="hover:text-blue-600">Buy</a>
+      <a href="#" class="hover:text-blue-600">Sell</a>
+      <a href="#" class="hover:text-blue-600">Account</a>
+    </div>
+    <div class="md:hidden">
+      <button class="text-2xl">&#9776;</button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="text-center py-12 px-4">
+    <h1 class="text-3xl md:text-5xl font-semibold mb-4">Find your ideal car</h1>
+    <div class="max-w-xl mx-auto">
+      <input 
+        type="text" 
+        placeholder="Search by make, model, keyword..." 
+        class="w-full p-3 rounded-xl border border-gray-300 shadow-sm focus:outline-none focus:ring focus:border-blue-500"
+      />
+    </div>
+  </section>
+
+  <!-- Featured Listings -->
+  <section class="px-6 pb-16">
+    <h2 class="text-2xl font-semibold mb-6">Featured Listings</h2>
+    <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+      <!-- Car Card -->
+      <div class="bg-white rounded-xl shadow-md overflow-hidden">
+        <div class="h-40 bg-gray-200"></div>
+        <div class="p-4">
+          <h3 class="font-semibold text-lg">Car Title</h3>
+          <p class="text-blue-600 font-bold">$40,000</p>
+          <p class="text-sm text-gray-500">Details here</p>
+        </div>
+      </div>
+      <!-- Duplicate cards for demo -->
+      <div class="bg-white rounded-xl shadow-md overflow-hidden">
+        <div class="h-40 bg-gray-200"></div>
+        <div class="p-4">
+          <h3 class="font-semibold text-lg">Car Title</h3>
+          <p class="text-blue-600 font-bold">$30,000</p>
+          <p class="text-sm text-gray-500">Details here</p>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl shadow-md overflow-hidden">
+        <div class="h-40 bg-gray-200"></div>
+        <div class="p-4">
+          <h3 class="font-semibold text-lg">Car Title</h3>
+          <p class="text-blue-600 font-bold">$50,000</p>
+          <p class="text-sm text-gray-500">Details here</p>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl shadow-md overflow-hidden">
+        <div class="h-40 bg-gray-200"></div>
+        <div class="p-4">
+          <h3 class="font-semibold text-lg">Car Title</h3>
+          <p class="text-blue-600 font-bold">$35,000</p>
+          <p class="text-sm text-gray-500">Details here</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
